@@ -8,3 +8,11 @@ var myStr = "FirstLine\n\t\\SecondLine\nThirdLine"; /*Escape Sequences in String
 var myStr = "This is the first sentence. "  /*Concatenating Strings with the Plus Equals Operator*/
 myStr += "This is the second sentence."
 console.log(myStr);
+
+var myName="Egor";
+var myStr="My name is "+myName+" and I am well!"; /*Constructing Strings with Variables*/
+console.log(myStr)
+
+var someAdjective="Cool";
+var myStr = "Learning to code is "; /*Appending Variables to Strings*/
+myStr += someAdjective;
