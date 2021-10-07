@@ -16,3 +16,13 @@ console.log(myStr)
 var someAdjective="Cool";
 var myStr = "Learning to code is "; /*Appending Variables to Strings*/
 myStr += someAdjective;
+
+var firstNameLength = 0;
+var firstName = "Ada";
+firstNameLength = firstName.length;    /*Find the Length of a String*/
+// Setup
+var lastNameLength = 0;
+var lastName = "Lovelace";
+// Only change code below this line.
+lastNameLength = lastName.length;
+console.log(lastNameLength)
